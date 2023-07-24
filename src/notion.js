@@ -17,7 +17,7 @@ export const getImages = async () => {
         const { name, image } = properties
         
         return {
-            name: name.rich_text[0].plain_text,
+            name: name.title[0].plain_text,
             url: image.files[0].file.url
         }
     })
