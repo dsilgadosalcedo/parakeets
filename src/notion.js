@@ -1,4 +1,4 @@
-import { Client } from '@notionhq/client'
+import { APIErrorCode, Client } from '@notionhq/client'
 
 const NOTION_SECRET='secret_ilberFg1F5VkOfuBrLSSTrwpAQYL2rhKsLdSxqT6zAE'
 const NOTION_DATABASE_ID='cbbfdaff6b6748a6bfbef4f57a4cea68'
