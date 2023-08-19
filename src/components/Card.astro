@@ -8,7 +8,7 @@ const { href, title } = Astro.props;
 ---
 
 <li class="link-card flex flex-col min-w-fit gap-4 p-4 rounded bg-white list-none">
-	<img class="h-[300px] w-[300px] rounded" src={href} alt={title}>
+	<img class="h-[300px] rounded object-cover" src={href} alt={title}>
 	<h2>{title}</h2>
 </li>
 

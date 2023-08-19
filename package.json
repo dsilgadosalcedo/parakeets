@@ -1,7 +1,7 @@
 {
   "name": "parakeets",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,9 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^4.0.0",
-    "@notionhq/client": "^2.2.8",
-    "astro": "^2.9.1",
-    "tailwindcss": "^3.3.3"
+    "@astrojs/tailwind": "4.0.0",
+    "@notionhq/client": "2.2.8",
+    "astro": "2.9.1",
+    "tailwindcss": "3.3.3"
   }
 }
